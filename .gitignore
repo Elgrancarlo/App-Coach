@@ -1,0 +1,65 @@
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+.env.development
+
+# Dependencies
+node_modules/
+backend/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs
+frontend/.next/
+frontend/out/
+frontend/build/
+backend/dist/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Python specific
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Next.js specific
+.next/
+out/
+
+# Railway specific
+.railway/
